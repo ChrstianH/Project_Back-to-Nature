@@ -1,0 +1,288 @@
+@font-face {
+  font-family: UrbanistBlack;
+  src: url(../font/Urbanist/Urbanist-Black.ttf);
+}
+@font-face {
+  font-family: UrbanistBold;
+  src: url(../font/Urbanist/Urbanist-Bold.ttf);
+}
+@font-face {
+  font-family: UrbanistRegular;
+  src: url(../font/Urbanist/Urbanist-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  border-radius: 45px;
+  margin: 16px;
+  padding: 8px;
+}
+
+.menu {
+  display: none;
+  font-family: UrbanistBlack;
+}
+
+.burger-wrapper {
+  display: block;
+}
+
+.burger-wrapper .links {
+  margin-top: 4px;
+  height: 36px;
+  width: 36px;
+}
+
+.hero {
+  background-image: url(../img/hero-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 20px;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-family: UrbanistBlack;
+  font-size: 38px;
+  line-height: 0.8;
+  letter-spacing: 0;
+  width: 134px;
+  position: relative;
+  left: 58px;
+  top: 84px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 154px;
+  gap: 20px;
+}
+
+.button {
+  padding: 14px 16px;
+  margin: 0 28px;
+  display: flex;
+  justify-content: space-between;
+  font-family: UrbanistBold;
+  font-size: 16px;
+  line-height: 26px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  box-shadow: -4px -4px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.search {
+  background-color: #a9cba6;
+}
+
+.cards {
+  position: relative;
+  top: 209px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 64px 20px;
+}
+.cards {
+  background-image: url(../img/Vector.svg);
+  background-repeat: no-repeat;
+}
+
+.textbox {
+  margin: 0 26px;
+}
+
+.textbox h2 {
+  font-family: UrbanistBlack;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.textbox p {
+  font-size: 16px;
+  font-family: Urbanist-Regular;
+  letter-spacing: 0.24px;
+  text-align: center;
+  padding: 0 28px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  padding: 16px 56px 23px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 234px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 15.7px;
+  box-shadow: -5px -5px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.card img {
+  width: 120px;
+}
+.card p {
+  text-align: center;
+  font-size: 16px;
+  font-family: UrbanistRegular;
+  line-height: 162.5%;
+  letter-spacing: 0.2px;
+}
+.card h3 {
+  text-align: center;
+  font-size: 16px;
+  font-family: UrbanistRegular;
+  line-height: 162.5%;
+  letter-spacing: 0.37px;
+}
+
+.carCards {
+  position: relative;
+  top: 209px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding: 29px 20px 0 20px;
+  background-image: url(../img/Vector1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.carCards p {
+  text-align: center;
+  font-size: 16px;
+  font-family: UrbanistRegular;
+  line-height: 162.5%;
+  letter-spacing: 0.2px;
+  background-image: url(../img/Vector2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.carCards h3 {
+  text-align: center;
+  font-size: 16px;
+  font-family: UrbanistRegular;
+  line-height: 162.5%;
+  letter-spacing: 0.37px;
+}
+.carCard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.carCard {
+  border-radius: 50px;
+  border: 1px solid #000;
+}
+.carCard h3 {
+  font-size: 40px;
+  font-family: UrbanistBlack;
+  line-height: 93.4%;
+  letter-spacing: 0.13px;
+}
+.carCard p {
+  font-size: 20px;
+  font-family: UrbanistRegular;
+  line-height: 34px;
+  letter-spacing: 0.133px;
+}
+.carCard p span {
+  font-size: 40px;
+  font-family: UrbanistRegular;
+  letter-spacing: 0.133px;
+}
+
+.name_price {
+  display: flex;
+  justify-content: space-between;
+}
+.card-wrapper {
+  padding: 14px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  background-color: #f0cea0;
+  border-radius: 0 0 50px 50px;
+  box-shadow: -4px -4px 0px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.feature {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btnCarCard {
+  padding: 14px 16px;
+  font-family: UrbanistBold;
+  font-size: 16px;
+  line-height: 26px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  box-shadow: -4px -4px 0px 0px rgba(0, 0, 0, 0.25) inset;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  top: 211px;
+  padding: 24px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-top: 2px solid #000;
+}
+
+footer .logo,
+footer .agb {
+  text-align: center;
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+footer .links a {
+  text-decoration: none;
+  color: black;
+  font-family: UrbanistRegular;
+  text-transform: uppercase;
+}
+
+.social {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.bgImg1 {
+  position: static;
+  top: 100px;
+}

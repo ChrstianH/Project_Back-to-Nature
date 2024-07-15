@@ -1,0 +1,28 @@
+<svg width="145" height="177" viewBox="0 0 145 177" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ungebgrenzte KM">
+<g id="Circle" filter="url(#filter0_f_240_1161)">
+<circle cx="61.0612" cy="40.9884" r="20.625" fill="#F0CEA0"/>
+</g>
+<g id="Circle_2" filter="url(#filter1_f_240_1161)">
+<circle cx="79.8112" cy="112.238" r="24.375" fill="#A9CBA6"/>
+</g>
+<path id="Vector" d="M51.6862 102.863L27.1132 115.15C24.6198 116.397 21.6862 114.583 21.6862 111.796V52.681C21.6862 51.2606 22.4887 49.9621 23.7591 49.3269L51.6862 35.3634M51.6862 102.863L81.6862 117.863M51.6862 102.863V35.3634M51.6862 102.863L57.7439 89.7384M81.6862 117.863V50.3634M81.6862 117.863L87.3112 115.051M81.6862 50.3634L106.259 38.0769C108.752 36.8302 111.686 38.6433 111.686 41.431V100.546C111.686 101.966 110.884 103.265 109.613 103.9L87.3112 115.051M81.6862 50.3634L51.6862 35.3634M81.2535 91.6134L71.6884 73.8498C70.2226 71.1275 66.2775 71.2489 64.9818 74.0562L57.7439 89.7384M81.2535 91.6134L77.5502 90.379C76.3724 89.9864 75.0739 90.2929 74.1961 91.1708L73.7535 91.6134C72.7179 92.6489 71.039 92.6489 70.0035 91.6134C68.9679 90.5779 67.289 90.5779 66.2535 91.6134L65.9979 91.869C65.0408 92.8261 63.563 93.0275 62.3847 92.3615L57.7439 89.7384M81.2535 91.6134L87.3112 115.051" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M89.1862 54.1134V54.1134C90.4192 54.1134 91.6353 54.4005 92.7382 54.9519L94.8112 55.9884L96.8841 54.9519C97.987 54.4005 99.2031 54.1134 100.436 54.1134V54.1134" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M29.1862 87.8634C32.9362 87.8634 41.1862 85.6134 44.1862 76.6134C47.9362 65.3634 57.3112 59.7384 66.6862 59.7384C76.0612 59.7384 92.9362 70.9884 109.811 59.7384" stroke="black" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+<path id="Vector_4" d="M98.5614 108.488V99.0627M98.5614 99.0627H91.0615L98.0927 86.9006H91.0612L98.5614 74.7384L106.06 86.9006H99.03L106.061 99.0627H98.5614Z" stroke="black" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"/>
+<path id="Vector_5" d="M28.245 68.9836L34.8104 80.3636L41.3757 68.9836C43.0443 66.0913 42.6237 62.4478 40.34 60.0118C37.3455 56.8177 32.2752 56.8177 29.2807 60.0118C26.997 62.4478 26.5764 66.0913 28.245 68.9836Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Vector_6" cx="34.8112" cy="65.3634" r="2" stroke="black" stroke-width="3.5"/>
+</g>
+<defs>
+<filter id="filter0_f_240_1161" x="0.436157" y="-19.6366" width="121.25" height="121.25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_240_1161"/>
+</filter>
+<filter id="filter1_f_240_1161" x="15.4362" y="47.8634" width="128.75" height="128.75" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20" result="effect1_foregroundBlur_240_1161"/>
+</filter>
+</defs>
+</svg>
