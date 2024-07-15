@@ -101,11 +101,12 @@ header > div {
   gap: 64px;
   padding: 64px 20px;
 }
-.cards {
+
+/* .cards {
   background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
 }
-
+ */
 .textbox {
   margin: 0 26px;
 }
@@ -142,9 +143,11 @@ header > div {
   border-radius: 15.7px;
   box-shadow: -5px -5px 0px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
 .card img {
   width: 120px;
 }
+
 .card p {
   text-align: center;
   font-size: 16px;
@@ -152,6 +155,7 @@ header > div {
   line-height: 162.5%;
   letter-spacing: 0.2px;
 }
+
 .card h3 {
   text-align: center;
   font-size: 16px;
@@ -182,6 +186,7 @@ header > div {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
+
 .carCards h3 {
   text-align: center;
   font-size: 16px;
@@ -189,28 +194,33 @@ header > div {
   line-height: 162.5%;
   letter-spacing: 0.37px;
 }
+
 .carCard-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-bottom: 60px;
 }
+
 .carCard {
   border-radius: 50px;
   border: 1px solid #000;
 }
+
 .carCard h3 {
   font-size: 40px;
   font-family: UrbanistBlack;
   line-height: 93.4%;
   letter-spacing: 0.13px;
 }
+
 .carCard p {
   font-size: 20px;
   font-family: UrbanistRegular;
   line-height: 34px;
   letter-spacing: 0.133px;
 }
+
 .carCard p span {
   font-size: 40px;
   font-family: UrbanistRegular;
@@ -221,6 +231,7 @@ header > div {
   display: flex;
   justify-content: space-between;
 }
+
 .card-wrapper {
   padding: 14px 34px;
   display: flex;
@@ -233,6 +244,7 @@ header > div {
 
 .feature {
   display: flex;
+  height: 34px;
   justify-content: flex-start;
 }
 
@@ -282,7 +294,53 @@ footer .links a {
   justify-content: center;
 }
 
-.bgImg1 {
-  position: static;
-  top: 100px;
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: flex;
+    gap: 55px;
+  }
+
+  .menu a {
+    text-decoration: none;
+    color: #000;
+    font-family: UrbanistRegular;
+    font-weight: 400;
+    padding: 24px 8px;
+    font-size: 16px;
+  }
+
+  .menu a:hover {
+    text-decoration: underline;
+    font-family: UrbanistBlack;
+    font-weight: 700;
+  }
+  
+  .hero h1 {
+    font-size: 166px;
+    left: 200px;
+    top: 400px;
+    width: 590px;
+  }
+
+  .burger-wrapper {
+    display: none;
+  }
+    
+  .buttons, .card-container, .carCard-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  footer .links {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    text-align: center;
+    justify-content: center;
+  }
+    
 }
